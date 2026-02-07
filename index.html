@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill Sprout | Your Local Ecosystem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --aero-blue: #00a8ff;
+        --aero-green: #44bd32;
+        --glass-white: rgba(255, 255, 255, 0.4);
+      }
+      
+      body {
+        font-family: 'Segoe UI', 'Nunito', sans-serif;
+        background: fixed linear-gradient(135deg, #74b9ff 0%, #a29bfe 50%, #55efc4 100%);
+        min-height: 100vh;
+        margin: 0;
+        overflow-x: hidden;
+      }
+
+      /* Enhanced Frutiger Aero Gloss */
+      .aero-shine {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .aero-shine::after {
+        content: '';
+        position: absolute;
+        top: -100%;
+        left: -100%;
+        width: 300%;
+        height: 300%;
+        background: linear-gradient(
+          45deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0) 40%,
+          rgba(255, 255, 255, 0.4) 50%,
+          rgba(255, 255, 255, 0) 60%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        pointer-events: none;
+        transition: all 0.6s ease;
+      }
+
+      .glass-card {
+        background: rgba(255, 255, 255, 0.35);
+        backdrop-filter: blur(20px) saturate(180%);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        box-shadow: 
+          0 8px 32px 0 rgba(31, 38, 135, 0.1),
+          inset 0 0 20px rgba(255, 255, 255, 0.2);
+        border-radius: 24px;
+      }
+
+      .aero-button {
+        background: linear-gradient(to bottom, #ffffff 0%, #e1e1e1 100%);
+        border: 1px solid rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05), inset 0 2px 0 rgba(255,255,255,0.8);
+        transition: all 0.2s ease;
+      }
+
+      .aero-button:active {
+        transform: translateY(1px);
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+
+      .bubble {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(2px);
+        pointer-events: none;
+        z-index: -1;
+        animation: float 20s infinite linear;
+      }
+
+      @keyframes float {
+        0% { transform: translateY(0) rotate(0deg); opacity: 0; }
+        10% { opacity: 0.4; }
+        90% { opacity: 0.4; }
+        100% { transform: translateY(-1000px) rotate(360deg); opacity: 0; }
+      }
+
+      .text-shadow-aero {
+        text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8), 0 1px 1px rgba(0, 0, 0, 0.1);
+      }
+
+      .aurora-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -2;
+        background: radial-gradient(circle at 20% 30%, #55efc4 0%, transparent 40%),
+                    radial-gradient(circle at 80% 70%, #74b9ff 0%, transparent 40%);
+        filter: blur(80px);
+        opacity: 0.6;
+      }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div class="aurora-bg"></div>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "Skill Sprout - Community Ecosystem",
+  "description": "A hyper-local platform for sharing skills (Seeds) and help, designed with a nostalgic Frutiger Aero aesthetic to strengthen real-world community bonds and reduce waste.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
