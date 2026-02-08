@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1200" alt="SkillSprout Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="263" height="81" alt="image-2" src="https://github.com/user-attachments/assets/419d7a3d-e90d-4be0-88ce-933471708de6" />
 </div>
 
 # 🌱 SkillSprout  
@@ -13,14 +13,14 @@
 Modern neighborhoods are increasingly isolated, even while living closer than ever.  
 At the same time, usable items are thrown away because sharing is difficult, trust is low, and warranties or repair histories are lost.
 
-The traditional **sharing economy** has faded — replaced by over-consumption and disconnection.
+The traditional **sharing economy** has faded replaced by over consumption and disconnection.
 
 ---
 
 ## 💡 The Solution
-**SkillSprout** is a hyper-local community platform that transforms everyday favors into measurable **environmental and social impact**.
+**SkillSprout** is a hyper local community platform that transforms everyday favors into measurable **environmental and social impact**.
 
-We built a **Frutiger Aero–inspired dashboard** where neighbors share **Skills, Items, and Workshops** as **Seeds** planted into a shared ecosystem.
+We built a **Frutiger Aero inspired dashboard** where neighbors share **Skills, Items, and Workshops** as **Seeds** planted into a shared ecosystem.
 
 Each Seed:
 - Strengthens community bonds  
@@ -33,7 +33,7 @@ Guiding the ecosystem is **Ollie the Octopus 🐙**, our friendly community masc
 ---
 
 ## 🌍 The Vision
-Reclaiming the *“future we were promised”* — where technology feels optimistic, clean, and human-centric.
+Reclaiming the *“future we were promised”* — where technology feels optimistic, clean, and human centric.
 
 SkillSprout isn’t just an app.  
 It’s **digital soil where communities grow resilience together**.
@@ -42,7 +42,7 @@ It’s **digital soil where communities grow resilience together**.
 
 ## ✨ Key Features
 
-### 🌱 Seed-Based Sharing System
+### 🌱 Seed Based Sharing System
 Users plant **Seeds** representing:
 - **Skills** (e.g. teaching yoga)
 - **Items** (e.g. lending a drill)
@@ -70,12 +70,12 @@ For **Item Seeds**, Ollie supports:
 - Item condition tracking  
 - Repair and reuse cycles  
 
-Keeping items useful — and **out of landfills** — for longer.
+Keeping items useful  and **out of landfills**  for longer.
 
 ---
 
 ### 📊 Community Vitals Dashboard
-A real-time impact dashboard showing:
+A real time impact dashboard showing:
 - Items Saved  
 - Hours Shared  
 - CO₂ Reduced  
@@ -87,7 +87,7 @@ Built using **recharts**, this dashboard provides clear evidence of environmenta
 
 ---
 
-### 📖 The Untold Challenge — Community Story Archive
+### 📖 The Untold Challenge  Community Story Archive
 To address the **Untold Challenge**, SkillSprout transforms standard item descriptions into a **Community Story Archive**.
 
 Instead of listing specs, users share:
@@ -103,7 +103,7 @@ This preserves **hidden social capital** and turns tools into vessels of shared 
 SkillSprout is built as a **Single Page Application**:
 - Instant navigation  
 - No page reloads  
-- Smooth, app-like experience  
+- Smooth, app like experience  
 
 📁 Code Reference: `App.tsx`
 
@@ -113,7 +113,7 @@ SkillSprout is built as a **Single Page Application**:
 While most platforms use dark, industrial interfaces, SkillSprout embraces:
 - Glossy gradients  
 - Organic shapes  
-- Nature-inspired optimism  
+- Nature inspired optimism  
 
 Technology should feel **welcoming, not cold**.
 
@@ -131,12 +131,12 @@ Technology should feel **welcoming, not cold**.
 ---
 
 ## 🧱 Architecture & Scalability
-This prototype uses **LocalStorage** for lightning-fast persistence.
+This prototype uses **LocalStorage** for lightning fast persistence.
 
 The data layer is **reactive and modular**, designed to migrate seamlessly to:
 - PostgreSQL  
 - Supabase  
-- City-wide or global deployments
+- City wide or global deployments
 
 ---
 
@@ -153,7 +153,7 @@ The data layer is **reactive and modular**, designed to migrate seamlessly to:
 ---
 
 ## 🧪 Prototype Notes
-- Focused on real-time AI impact calculation  
+- Focused on real time AI impact calculation  
 - Optimized for live judging demos  
 - Designed for rapid iteration and storytelling  
 
@@ -162,14 +162,14 @@ The data layer is **reactive and modular**, designed to migrate seamlessly to:
 ## 🚀 Future Improvements
 - Supabase/PostgreSQL backend  
 - User authentication  
-- City-level analytics  
+- City level analytics  
 - Manufacturer warranty integrations  
 - PWA mobile support  
 
 ---
 
 ## ❤️ Final Thought
-> The value of a shared ladder isn’t just the height it reaches —  
+> The value of a shared ladder isn’t just the height it reaches  
 > it’s the **community bonds it builds**.
 
 **Small acts. Big impact. 🌱**
