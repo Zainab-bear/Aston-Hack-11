@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1200" height="100" alt="image-2" src="https://github.com/user-attachments/assets/419d7a3d-e90d-4be0-88ce-933471708de6" />
+  <img width="1200" height="200" alt="image-2" src="https://github.com/user-attachments/assets/419d7a3d-e90d-4be0-88ce-933471708de6" />
 </div>
 
 # 🌱 SkillSprout  
