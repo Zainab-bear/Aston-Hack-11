@@ -5,7 +5,7 @@
 # 🌱 SkillSprout  
 **The Ecosystem of Kindness**
 
-> *Small acts. Big impact. This is the future we were promised.*
+> Small acts. Big impact. This is the future we were promised.
 
 ---
 
