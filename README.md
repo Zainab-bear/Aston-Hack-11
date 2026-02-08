@@ -1,9 +1,9 @@
 <div align="center">
-  <img width="263" height="81" alt="image-2" src="https://github.com/user-attachments/assets/419d7a3d-e90d-4be0-88ce-933471708de6" />
+  <img width="1200" height="81" alt="image-2" src="https://github.com/user-attachments/assets/419d7a3d-e90d-4be0-88ce-933471708de6" />
 </div>
 
 # 🌱 SkillSprout  
-### The Ecosystem of Kindness
+**The Ecosystem of Kindness**
 
 > *Small acts. Big impact. This is the future we were promised.*
 
